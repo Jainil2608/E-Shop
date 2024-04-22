@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #D9D9D9;
+}
+
+a:link:not(.normal) {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited:not(.normal) {
+    color: white;
+    text-decoration: none;
+}
+
+.main {
+    width: 100%;
+    position: relative;
+}
+
+.nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 3vw;
+    padding: 0 4vw;
+    background-color: black;
+    color: white;
+}
+
+.nav-part2 {
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+}
+
+.nav h2 {
+    font-size: 1.8vw;
+}
+
+.nav button {
+    font-size: 1vw;
+    padding: 0.7vw 1.4vw;
+    background-color: #648DEE;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.nav h4 {
+    font-size: 1.1vw;
+}
+
+.nav i {
+    font-size: 1.6vw;
+    display: none;
+}
+
+.main2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main2 h1 {
+    padding-top: 10px;
+}
+
+p {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 1%;
+    font-size: 19px;
+}
+
+.main6 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.logo img {
+    width: 40%;
+}
+
+.ending {
+    width: 25%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ending h5 {
+    font-size: 3vh;
+    font-weight: 800;
+}
+
+.ending-2 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ending-2 h3 {
+    font-weight: 800;
+}
+
+.ending-2 {
+    font-size: 3vh;
+    font-weight: 800;
+}
+
+.ending-2 ul {
+    list-style-type: none;
+}
+
+.normal {
+    color: black;
+    text-decoration: none;
+}
